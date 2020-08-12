@@ -3,7 +3,7 @@ const app = express();
 const port = 8000;
 const path = require('path');
 
-
+const messages = [];
 
 app.use(express.static(path.join(__dirname, 'public')));
 
